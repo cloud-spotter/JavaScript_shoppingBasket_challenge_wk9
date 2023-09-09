@@ -8,8 +8,8 @@ describe ('Candy', () => {
         //     price: () => 5
         // }
         const candy = new Candy('Mars', 5);
-        expect(candy.name).toBe('Mars') 
-        expect(candy.price).toBe(5)
+        expect(candy.name).toBe('Mars'); 
+        expect(candy.price).toBe(5);
     })
     
     it('returns the name of a candy object when #getName is called', () => {

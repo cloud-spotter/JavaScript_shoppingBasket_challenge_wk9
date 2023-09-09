@@ -8,8 +8,8 @@ class Candy {
             throw new Error('Price must be a number')
         }
         
-        this.name = name; {/* string */}
-        this.price = price; {/* number */}
+        this.name = name; // string
+        this.price = price; // number
     }
     getName() {
         return this.name;
